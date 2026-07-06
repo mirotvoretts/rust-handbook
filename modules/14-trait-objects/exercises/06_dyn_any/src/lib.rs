@@ -1,7 +1,7 @@
-//! 06 (2x) — dyn Any и downcast.
+//! 06 (2x) - dyn Any и downcast.
 //!
 //! Мешок значений неизвестных типов: Vec<Box<dyn Any>>. Рассортируйте его:
-//! downcast_ref::<T>() возвращает Option<&T>, downcast::<T>() на Box — Result с
+//! downcast_ref::<T>() возвращает Option<&T>, downcast::<T>() на Box - Result с
 //! владением. Соберите все i32 (суммой) и все String (склейкой), остальное посчитайте.
 
 use std::any::Any;

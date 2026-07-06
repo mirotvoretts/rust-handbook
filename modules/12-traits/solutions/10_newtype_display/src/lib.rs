@@ -1,4 +1,4 @@
-//! 10 (3x) — Orphan rule и newtype. Эталонное решение.
+//! 10 (3x) - Orphan rule и newtype. Эталонное решение.
 
 use std::fmt;
 

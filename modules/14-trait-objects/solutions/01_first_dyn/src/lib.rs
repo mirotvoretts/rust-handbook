@@ -1,4 +1,4 @@
-//! 01 (0x) — Первый trait object. Эталонное решение.
+//! 01 (0x) - Первый trait object. Эталонное решение.
 
 pub trait Shape {
     fn area(&self) -> f64;

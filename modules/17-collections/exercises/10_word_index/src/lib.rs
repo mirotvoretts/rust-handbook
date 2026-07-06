@@ -1,6 +1,6 @@
-//! 10 (3x) — Капстоун: индекс слов.
+//! 10 (3x) - Капстоун: индекс слов.
 //!
-//! Соедините модуль: HashMap + entry, Vec, сортировка с tie-break. Слова — по
+//! Соедините модуль: HashMap + entry, Vec, сортировка с tie-break. Слова - по
 //! split_whitespace, приведение к нижнему регистру.
 
 use std::collections::HashMap;
@@ -21,7 +21,7 @@ impl WordIndex {
         todo!("map(|v| v.as_slice()).unwrap_or(&[])")
     }
 
-    /// Топ-n слов по частоте; при равенстве — лексикографически меньшее раньше.
+    /// Топ-n слов по частоте; при равенстве - лексикографически меньшее раньше.
     pub fn top_n(&self, n: usize) -> Vec<(String, usize)> {
         todo!("соберите (слово, count) в Vec, sort_by с двумя ключами, truncate")
     }

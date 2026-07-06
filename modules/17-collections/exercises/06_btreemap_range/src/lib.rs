@@ -1,7 +1,7 @@
-//! 06 (1x) — BTreeMap: порядок и диапазоны.
+//! 06 (1x) - BTreeMap: порядок и диапазоны.
 //!
 //! Журнал событий с ключом-таймстампом. BTreeMap держит ключи отсортированными:
-//! range даёт срез по времени, first/last_key_value — края.
+//! range даёт срез по времени, first/last_key_value - края.
 
 use std::collections::BTreeMap;
 

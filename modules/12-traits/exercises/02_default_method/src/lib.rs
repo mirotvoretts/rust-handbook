@@ -1,4 +1,4 @@
-//! 02 (0x) — Default-метод.
+//! 02 (0x) - Default-метод.
 //!
 //! Трейт `Greet`: обязательный `name()` и default-метод `greet()`, который строит
 //! приветствие "Привет, {name}!". `Robot` довольствуется default'ом, `Pirate`
@@ -20,7 +20,7 @@ impl Greet for Robot {
     fn name(&self) -> String {
         String::from("R2")
     }
-    // greet — из default'а
+    // greet - из default'а
 }
 
 impl Greet for Pirate {

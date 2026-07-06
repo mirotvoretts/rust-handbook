@@ -3,7 +3,7 @@ use ex_16_09_drop_panic_guard::Transaction;
 #[test]
 fn commit_disarms_drop() {
     let t = Transaction::begin();
-    assert!(t.commit()); // если Drop сработает — паника провалит тест
+    assert!(t.commit()); // если Drop сработает - паника провалит тест
 }
 
 #[test]

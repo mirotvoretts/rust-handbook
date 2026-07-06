@@ -1,8 +1,8 @@
-//! 04 (2x) — Blanket impl.
+//! 04 (2x) - Blanket impl.
 //!
-//! Один impl — и Loggable получают ВСЕ типы с Display: и i32, и ваш Temperature.
-//! Формат: "[LOG] {значение}". Второй impl для конкретного типа писать нельзя —
-//! конфликт (E0119); кастомизация — только через Display.
+//! Один impl - и Loggable получают ВСЕ типы с Display: и i32, и ваш Temperature.
+//! Формат: "[LOG] {значение}". Второй impl для конкретного типа писать нельзя -
+//! конфликт (E0119); кастомизация - только через Display.
 
 use std::fmt;
 
@@ -10,7 +10,7 @@ pub trait Loggable {
     fn log_line(&self) -> String;
 }
 
-// todo!(): blanket impl — impl<T: fmt::Display> Loggable for T
+// todo!(): blanket impl - impl<T: fmt::Display> Loggable for T
 impl<T: fmt::Display> Loggable for T {
     fn log_line(&self) -> String {
         todo!()

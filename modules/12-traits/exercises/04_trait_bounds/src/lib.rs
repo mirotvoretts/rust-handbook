@@ -1,8 +1,8 @@
-//! 04 (1x) — Границы в обобщённых функциях.
+//! 04 (1x) - Границы в обобщённых функциях.
 //!
 //! Трейт и типы готовы. Напишите две функции: одну с явным параметром `<T: Describe>`,
-//! другую — с `impl Describe` в аргументах. Заметьте: у `describe_pair` два аргумента
-//! `impl Describe` — это ДВА независимых типа, можно передать Circle и Square.
+//! другую - с `impl Describe` в аргументах. Заметьте: у `describe_pair` два аргумента
+//! `impl Describe` - это ДВА независимых типа, можно передать Circle и Square.
 
 pub trait Describe {
     fn describe(&self) -> String;
@@ -31,7 +31,7 @@ pub fn describe_all<T: Describe>(xs: &[T]) -> Vec<String> {
     todo!()
 }
 
-/// "{описание a} и {описание b}" — a и b могут быть РАЗНЫХ типов.
+/// "{описание a} и {описание b}" - a и b могут быть РАЗНЫХ типов.
 pub fn describe_pair(a: &impl Describe, b: &impl Describe) -> String {
     todo!("format! с двумя вызовами describe() через разделитель ' и '")
 }

@@ -1,4 +1,4 @@
-//! 02 (0x) — Default-метод. Эталонное решение.
+//! 02 (0x) - Default-метод. Эталонное решение.
 
 pub trait Greet {
     fn name(&self) -> String;

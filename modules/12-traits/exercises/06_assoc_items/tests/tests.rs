@@ -12,7 +12,7 @@ fn constants() {
 fn midpoint_dispatches_on_return_type() {
     let m: i8 = Bounded::midpoint();
     assert_eq!(m, -1);
-    assert_eq!(<u8 as Bounded>::midpoint(), 127); // у u8 есть inherent midpoint(a, b) — нужен fully qualified
+    assert_eq!(<u8 as Bounded>::midpoint(), 127); // у u8 есть inherent midpoint(a, b) - нужен fully qualified
 }
 
 #[test]

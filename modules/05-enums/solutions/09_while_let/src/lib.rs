@@ -1,4 +1,4 @@
-//! 09 (2x) — `while let`: вычерпывание `Vec`. Эталонное решение.
+//! 09 (2x) - `while let`: вычерпывание `Vec`. Эталонное решение.
 
 pub fn pop_all(stack: &mut Vec<i32>) -> Vec<i32> {
     let mut out = Vec::new();

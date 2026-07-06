@@ -1,4 +1,4 @@
-//! 08 (2x) — std::error::Error и Box<dyn Error>. Эталонное решение.
+//! 08 (2x) - std::error::Error и Box<dyn Error>. Эталонное решение.
 
 use std::error::Error;
 use std::fmt;
@@ -35,7 +35,7 @@ pub fn parse_records(lines: &[&str]) -> Result<Vec<i32>, BadRecord> {
     Ok(out)
 }
 
-/// Сумма записей; любая ошибка — как Box<dyn Error>.
+/// Сумма записей; любая ошибка - как Box<dyn Error>.
 pub fn sum_records(lines: &[&str]) -> Result<i64, Box<dyn Error>> {
     let records = parse_records(lines)?;
     let mut sum = 0i64;

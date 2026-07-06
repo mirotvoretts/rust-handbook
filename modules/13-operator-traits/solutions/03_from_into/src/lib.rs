@@ -1,4 +1,4 @@
-//! 03 (0x) — From и бесплатный Into. Эталонное решение.
+//! 03 (0x) - From и бесплатный Into. Эталонное решение.
 
 #[derive(Debug, PartialEq, Clone, Copy)]
 pub struct Meters(pub f64);

@@ -1,11 +1,11 @@
-//! 06 (3x) — GAT: тип-заём с параметром времени жизни. Эталонное решение.
+//! 06 (3x) - GAT: тип-заём с параметром времени жизни. Эталонное решение.
 
 pub trait Windows {
     type Window<'a>
     where
         Self: 'a;
 
-    /// Окно ширины size, начиная с start. None — если не помещается.
+    /// Окно ширины size, начиная с start. None - если не помещается.
     fn window_at(&self, start: usize) -> Option<Self::Window<'_>>;
 }
 

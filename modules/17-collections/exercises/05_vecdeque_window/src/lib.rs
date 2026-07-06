@@ -1,6 +1,6 @@
-//! 05 (1x) — VecDeque: скользящее окно.
+//! 05 (1x) - VecDeque: скользящее окно.
 //!
-//! Кольцевой буфер: push_back + pop_front за O(1) (у Vec pop спереди — O(n)).
+//! Кольцевой буфер: push_back + pop_front за O(1) (у Vec pop спереди - O(n)).
 //! SlidingAverage хранит последние capacity значений и отдаёт среднее.
 
 use std::collections::VecDeque;

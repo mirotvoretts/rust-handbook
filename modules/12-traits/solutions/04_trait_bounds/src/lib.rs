@@ -1,4 +1,4 @@
-//! 04 (1x) — Границы в обобщённых функциях. Эталонное решение.
+//! 04 (1x) - Границы в обобщённых функциях. Эталонное решение.
 
 pub trait Describe {
     fn describe(&self) -> String;
@@ -31,7 +31,7 @@ pub fn describe_all<T: Describe>(xs: &[T]) -> Vec<String> {
     out
 }
 
-/// "{описание a} и {описание b}" — a и b могут быть РАЗНЫХ типов.
+/// "{описание a} и {описание b}" - a и b могут быть РАЗНЫХ типов.
 pub fn describe_pair(a: &impl Describe, b: &impl Describe) -> String {
     format!("{} и {}", a.describe(), b.describe())
 }

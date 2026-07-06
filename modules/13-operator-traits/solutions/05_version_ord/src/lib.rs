@@ -1,4 +1,4 @@
-//! 05 (1x) — Ord через кортежи. Эталонное решение.
+//! 05 (1x) - Ord через кортежи. Эталонное решение.
 
 #[derive(Debug, PartialEq, Eq, Clone, Copy)]
 pub struct Version {

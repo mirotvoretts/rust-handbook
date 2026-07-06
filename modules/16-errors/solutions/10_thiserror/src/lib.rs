@@ -1,4 +1,4 @@
-//! 10 (3x) — thiserror: тот же канон без бойлерплейта. Эталонное решение.
+//! 10 (3x) - thiserror: тот же канон без бойлерплейта. Эталонное решение.
 
 use std::num::ParseIntError;
 
@@ -11,7 +11,7 @@ pub enum ConfigError {
     BadNumber(#[from] ParseIntError),
 }
 
-/// Ищет "key=value"; ошибки — через новый тип.
+/// Ищет "key=value"; ошибки - через новый тип.
 pub fn get_number(lines: &[&str], key: &str) -> Result<i64, ConfigError> {
     for line in lines {
         if let Some(v) = line.strip_prefix(key).and_then(|r| r.strip_prefix('=')) {

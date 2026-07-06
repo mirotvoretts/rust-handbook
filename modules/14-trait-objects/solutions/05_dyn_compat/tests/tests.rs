@@ -19,6 +19,6 @@ fn fresh_copy_still_callable_on_concrete_type() {
 #[test]
 fn dyn_usage_compiles_and_works() {
     let mut b = VecBuffer { bytes: vec![] };
-    fill(&mut b, 4); // &mut dyn Buffer — трейт обязан быть dyn-совместимым
+    fill(&mut b, 4); // &mut dyn Buffer - трейт обязан быть dyn-совместимым
     assert_eq!(b.bytes, vec![0, 1, 2, 3]);
 }

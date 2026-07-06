@@ -18,7 +18,7 @@ fn extend_strings() {
 fn dedup_adjacent_only() {
     let mut v = vec![1, 1, 2, 2, 2, 1];
     squash(&mut v);
-    assert_eq!(v, vec![1, 2, 1]); // последняя 1 НЕ соседняя — остаётся
+    assert_eq!(v, vec![1, 2, 1]); // последняя 1 НЕ соседняя - остаётся
 }
 
 #[test]

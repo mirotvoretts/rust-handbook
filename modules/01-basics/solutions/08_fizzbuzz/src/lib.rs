@@ -1,4 +1,4 @@
-//! 08 (1x) — FizzBuzz. Эталонное решение.
+//! 08 (1x) - FizzBuzz. Эталонное решение.
 
 pub fn fizzbuzz(n: u32) -> Vec<String> {
     let mut out = Vec::new();

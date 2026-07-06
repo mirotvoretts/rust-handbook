@@ -1,11 +1,11 @@
-//! 09 (2x) — «Карающий» деструктор и paniking().
+//! 09 (2x) - "Карающий" деструктор и paniking().
 //!
-//! Transaction обязана завершаться явно: commit или rollback. Забытая транзакция —
+//! Transaction обязана завершаться явно: commit или rollback. Забытая транзакция -
 //! баг, и Drop наказывает паникой. НО: если Drop сработал во время УЖЕ идущей паники,
-//! паниковать нельзя (паника-в-панике = abort) — проверяйте thread::panicking().
+//! паниковать нельзя (паника-в-панике = abort) - проверяйте thread::panicking().
 //!
 //! mem::forget в commit/rollback обезвреживает деструктор (M06 §8, конспект: приём
-//! «эмуляция линейных типов»).
+//! "эмуляция линейных типов").
 
 pub struct Transaction {
     pub committed_flag: bool, // для тестов; в жизни тут был бы дескриптор
@@ -29,6 +29,6 @@ impl Transaction {
 
 impl Drop for Transaction {
     fn drop(&mut self) {
-        todo!("если !std::thread::panicking() — panic! про забытую транзакцию; иначе молча")
+        todo!("если !std::thread::panicking() - panic! про забытую транзакцию; иначе молча")
     }
 }

@@ -1,4 +1,4 @@
-//! 03 (0x) — Диапазоны, or-паттерны и guard в `match`. Эталонное решение.
+//! 03 (0x) - Диапазоны, or-паттерны и guard в `match`. Эталонное решение.
 
 pub fn grade(score: u32) -> char {
     match score {

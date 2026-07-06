@@ -747,6 +747,98 @@ name = "ex-17-10-word-index"
 version = "0.1.0"
 
 [[package]]
+name = "ex-18-01-closure-syntax"
+version = "0.1.0"
+
+[[package]]
+name = "ex-18-02-capture-modes"
+version = "0.1.0"
+
+[[package]]
+name = "ex-18-03-fn-bounds"
+version = "0.1.0"
+
+[[package]]
+name = "ex-18-04-move-counter"
+version = "0.1.0"
+
+[[package]]
+name = "ex-18-05-fn-pointers"
+version = "0.1.0"
+
+[[package]]
+name = "ex-18-06-retry"
+version = "0.1.0"
+
+[[package]]
+name = "ex-18-07-event-system"
+version = "0.1.0"
+
+[[package]]
+name = "ex-19-01-next-manual"
+version = "0.1.0"
+
+[[package]]
+name = "ex-19-02-into-iter-forms"
+version = "0.1.0"
+
+[[package]]
+name = "ex-19-03-adapters-basic"
+version = "0.1.0"
+
+[[package]]
+name = "ex-19-04-consumers"
+version = "0.1.0"
+
+[[package]]
+name = "ex-19-05-collect-targets"
+version = "0.1.0"
+
+[[package]]
+name = "ex-19-06-lazy-toolbox"
+version = "0.1.0"
+
+[[package]]
+name = "ex-19-07-custom-iterator"
+version = "0.1.0"
+
+[[package]]
+name = "ex-19-08-fib-pipeline"
+version = "0.1.0"
+
+[[package]]
+name = "ex-20-01-box-basics"
+version = "0.1.0"
+
+[[package]]
+name = "ex-20-02-deref-coercion"
+version = "0.1.0"
+
+[[package]]
+name = "ex-20-03-recursive-list"
+version = "0.1.0"
+
+[[package]]
+name = "ex-20-04-drop-guard"
+version = "0.1.0"
+
+[[package]]
+name = "ex-20-05-rc-sharing"
+version = "0.1.0"
+
+[[package]]
+name = "ex-20-06-mybox-deref"
+version = "0.1.0"
+
+[[package]]
+name = "ex-20-07-rc-tree"
+version = "0.1.0"
+
+[[package]]
+name = "ex-20-08-expr-eval"
+version = "0.1.0"
+
+[[package]]
 name = "proc-macro2"
 version = "1.0.106"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1500,6 +1592,98 @@ version = "0.1.0"
 
 [[package]]
 name = "sol-17-10-word-index"
+version = "0.1.0"
+
+[[package]]
+name = "sol-18-01-closure-syntax"
+version = "0.1.0"
+
+[[package]]
+name = "sol-18-02-capture-modes"
+version = "0.1.0"
+
+[[package]]
+name = "sol-18-03-fn-bounds"
+version = "0.1.0"
+
+[[package]]
+name = "sol-18-04-move-counter"
+version = "0.1.0"
+
+[[package]]
+name = "sol-18-05-fn-pointers"
+version = "0.1.0"
+
+[[package]]
+name = "sol-18-06-retry"
+version = "0.1.0"
+
+[[package]]
+name = "sol-18-07-event-system"
+version = "0.1.0"
+
+[[package]]
+name = "sol-19-01-next-manual"
+version = "0.1.0"
+
+[[package]]
+name = "sol-19-02-into-iter-forms"
+version = "0.1.0"
+
+[[package]]
+name = "sol-19-03-adapters-basic"
+version = "0.1.0"
+
+[[package]]
+name = "sol-19-04-consumers"
+version = "0.1.0"
+
+[[package]]
+name = "sol-19-05-collect-targets"
+version = "0.1.0"
+
+[[package]]
+name = "sol-19-06-lazy-toolbox"
+version = "0.1.0"
+
+[[package]]
+name = "sol-19-07-custom-iterator"
+version = "0.1.0"
+
+[[package]]
+name = "sol-19-08-fib-pipeline"
+version = "0.1.0"
+
+[[package]]
+name = "sol-20-01-box-basics"
+version = "0.1.0"
+
+[[package]]
+name = "sol-20-02-deref-coercion"
+version = "0.1.0"
+
+[[package]]
+name = "sol-20-03-recursive-list"
+version = "0.1.0"
+
+[[package]]
+name = "sol-20-04-drop-guard"
+version = "0.1.0"
+
+[[package]]
+name = "sol-20-05-rc-sharing"
+version = "0.1.0"
+
+[[package]]
+name = "sol-20-06-mybox-deref"
+version = "0.1.0"
+
+[[package]]
+name = "sol-20-07-rc-tree"
+version = "0.1.0"
+
+[[package]]
+name = "sol-20-08-expr-eval"
 version = "0.1.0"
 
 [[package]]

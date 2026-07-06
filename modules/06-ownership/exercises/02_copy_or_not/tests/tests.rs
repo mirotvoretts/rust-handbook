@@ -14,6 +14,6 @@ fn label_clones() {
     let (a, b) = clone_pair(&l);
     assert_eq!(a.0, "tag");
     assert_eq!(b.0, "tag");
-    // исходная метка всё ещё доступна — clone_pair брал её по ссылке
+    // исходная метка всё ещё доступна - clone_pair брал её по ссылке
     assert_eq!(l.0, "tag");
 }

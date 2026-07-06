@@ -1,4 +1,4 @@
-//! 10 (2x) — Почему move НЕ приводит к double-free. Эталонное решение.
+//! 10 (2x) - Почему move НЕ приводит к double-free. Эталонное решение.
 
 use std::cell::RefCell;
 use std::rc::Rc;
@@ -20,7 +20,7 @@ impl Drop for Resource {
     }
 }
 
-/// Владение просто движется дальше — источник moved-from, его Drop не вызывается.
+/// Владение просто движется дальше - источник moved-from, его Drop не вызывается.
 pub fn relay(r: Resource) -> Resource {
     r
 }

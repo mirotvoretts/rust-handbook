@@ -29,5 +29,5 @@ fn compound_assign_through_index_mut() {
 #[should_panic]
 fn out_of_bounds_panics() {
     let g = Grid::new(2, 2);
-    let _ = g[(0, 5)]; // смещение 0*2+5=5 — за пределами cells (len 4)
+    let _ = g[(0, 5)]; // смещение 0*2+5=5 - за пределами cells (len 4)
 }

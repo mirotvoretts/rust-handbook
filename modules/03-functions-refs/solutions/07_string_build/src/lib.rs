@@ -1,4 +1,4 @@
-//! 07 (1x) — Построение `String` из `&str`. Эталонное решение.
+//! 07 (1x) - Построение `String` из `&str`. Эталонное решение.
 
 pub fn repeat_str(s: &str, n: usize) -> String {
     s.repeat(n)

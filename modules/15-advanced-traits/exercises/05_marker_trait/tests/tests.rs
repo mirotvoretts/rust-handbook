@@ -5,5 +5,5 @@ fn approved_deploys() {
     assert_eq!(deploy(&StableSort), "deployed: stable-sort");
 }
 
-// deploy(&ExperimentalSort) не компилируется — маркера нет.
-// (Проверить «не компилируется» обычным тестом нельзя; поверьте компилятору.)
+// deploy(&ExperimentalSort) не компилируется - маркера нет.
+// (Проверить "не компилируется" обычным тестом нельзя; поверьте компилятору.)

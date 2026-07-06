@@ -16,6 +16,6 @@ fn update() {
     let base = rgb(1, 2, 3);
     let red = with_red(base, 255);
     assert_eq!(red, Color { r: 255, g: 2, b: 3 });
-    // base — Copy, поэтому всё ещё доступен
+    // base - Copy, поэтому всё ещё доступен
     assert_eq!(base, Color { r: 1, g: 2, b: 3 });
 }

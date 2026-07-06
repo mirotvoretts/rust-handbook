@@ -1,4 +1,4 @@
-//! 07 (1x) — Возврат `&'static str`. Эталонное решение.
+//! 07 (1x) - Возврат `&'static str`. Эталонное решение.
 
 pub fn size_name(n: u32) -> &'static str {
     match n {

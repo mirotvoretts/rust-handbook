@@ -1,4 +1,4 @@
-//! 06 (1x) — TryFrom: конверсия с отказом. Эталонное решение.
+//! 06 (1x) - TryFrom: конверсия с отказом. Эталонное решение.
 
 #[derive(Debug, PartialEq)]
 pub struct Age(pub u8);

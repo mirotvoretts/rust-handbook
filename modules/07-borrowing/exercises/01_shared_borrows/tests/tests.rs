@@ -16,7 +16,7 @@ fn positives() {
 fn summaries() {
     assert_eq!(summary(&vec![1, -2, 3]), (2, 2));
     let v = vec![5, 5, 5];
-    // v всё ещё доступен после summary — брали только общие заёмы
+    // v всё ещё доступен после summary - брали только общие заёмы
     assert_eq!(summary(&v), (15, 3));
     assert_eq!(v.len(), 3);
 }

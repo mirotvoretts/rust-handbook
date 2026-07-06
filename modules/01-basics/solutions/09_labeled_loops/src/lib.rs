@@ -1,4 +1,4 @@
-//! 09 (2x) — Метки циклов и `break 'label`. Эталонное решение.
+//! 09 (2x) - Метки циклов и `break 'label`. Эталонное решение.
 
 pub fn factor_pair(target: u32) -> Option<(u32, u32)> {
     let mut ans = None;
@@ -18,7 +18,7 @@ pub fn pythagorean_triple(perimeter: u32) -> Option<(u32, u32, u32)> {
     'outer: for a in 1..perimeter {
         for b in (a + 1)..perimeter {
             if a + b >= perimeter {
-                break; // c уже не будет положительным — к следующему a
+                break; // c уже не будет положительным - к следующему a
             }
             let c = perimeter - a - b;
             if c > b && a * a + b * b == c * c {

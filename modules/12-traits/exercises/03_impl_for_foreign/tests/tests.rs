@@ -10,7 +10,7 @@ fn i32_weight_is_abs() {
 #[test]
 fn strings_weigh_bytes() {
     assert_eq!(String::from("abc").weight(), 3);
-    assert_eq!("Ы".weight(), 2); // кириллица — 2 байта в UTF-8
+    assert_eq!("Ы".weight(), 2); // кириллица - 2 байта в UTF-8
 }
 
 #[test]

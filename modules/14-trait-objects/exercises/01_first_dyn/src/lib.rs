@@ -1,4 +1,4 @@
-//! 01 (0x) — Первый trait object.
+//! 01 (0x) - Первый trait object.
 //!
 //! Разнотипные фигуры в одном векторе: Vec<Box<dyn Shape>>. Реализуйте Shape для
 //! Circle и Rect, затем total_area, обходящую вектор через vtable-вызовы.

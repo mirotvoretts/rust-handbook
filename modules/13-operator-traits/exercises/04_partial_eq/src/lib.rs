@@ -1,4 +1,4 @@
-//! 04 (1x) — Ручной PartialEq и сравнение разных типов.
+//! 04 (1x) - Ручной PartialEq и сравнение разных типов.
 //!
 //! Username сравнивается без учёта ASCII-регистра: "Alice" == "alice". Два impl:
 //! PartialEq (Username == Username) и PartialEq<str> (Username == *"alice").

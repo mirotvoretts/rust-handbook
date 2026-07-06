@@ -1,4 +1,4 @@
-//! 04 (1x) — Замыкания за dyn: конвейер. Эталонное решение.
+//! 04 (1x) - Замыкания за dyn: конвейер. Эталонное решение.
 
 pub type Step = Box<dyn Fn(i64) -> i64>;
 
@@ -22,7 +22,7 @@ impl Pipeline {
         self.steps.push(step);
     }
 
-    /// Шаг «прибавить k».
+    /// Шаг "прибавить k".
     pub fn add_offset(&mut self, k: i64) {
         self.add_step(Box::new(move |x| x + k));
     }

@@ -6,5 +6,5 @@ fn encapsulated() {
     assert_eq!(acc.balance(), 100);
     acc.deposit(50);
     assert_eq!(acc.balance(), 150);
-    // acc.balance — это поле — недоступно снаружи модуля (только метод .balance())
+    // acc.balance - это поле - недоступно снаружи модуля (только метод .balance())
 }

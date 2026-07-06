@@ -1,4 +1,4 @@
-//! 04 (1x) — Entry API. Эталонное решение.
+//! 04 (1x) - Entry API. Эталонное решение.
 
 use std::collections::HashMap;
 

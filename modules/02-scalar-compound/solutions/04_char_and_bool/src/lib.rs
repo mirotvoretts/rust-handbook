@@ -1,4 +1,4 @@
-//! 04 (0x) — `char` и `bool`. Эталонное решение.
+//! 04 (0x) - `char` и `bool`. Эталонное решение.
 
 pub fn is_vowel(c: char) -> bool {
     matches!(c, 'a' | 'e' | 'i' | 'o' | 'u')

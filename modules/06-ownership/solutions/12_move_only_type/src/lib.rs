@@ -1,4 +1,4 @@
-//! 12 (3x) — Move-only тип. Эталонное решение.
+//! 12 (3x) - Move-only тип. Эталонное решение.
 
 pub struct FileHandle {
     fd: u32,

@@ -10,7 +10,7 @@ fn sum_owned_consumes() {
 fn sum_borrowed_keeps_vec() {
     let v = vec![10, 20, 30];
     assert_eq!(sum_borrowed(&v), 60);
-    // вектор всё ещё доступен — sum_borrowed только одолжил его
+    // вектор всё ещё доступен - sum_borrowed только одолжил его
     assert_eq!(v.len(), 3);
 }
 

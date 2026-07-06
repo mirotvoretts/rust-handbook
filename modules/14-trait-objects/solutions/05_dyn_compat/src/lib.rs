@@ -1,4 +1,4 @@
-//! 05 (2x) — Dyn compatibility. Эталонное решение.
+//! 05 (2x) - Dyn compatibility. Эталонное решение.
 
 pub trait Buffer {
     fn len(&self) -> usize;
@@ -10,7 +10,7 @@ pub trait Buffer {
     fn push_byte(&mut self, b: u8);
 
     /// Свежая пустая копия того же типа. `where Self: Sized` прячет метод от
-    /// trait object — и трейт снова dyn-совместим.
+    /// trait object - и трейт снова dyn-совместим.
     fn fresh_copy(&self) -> Self
     where
         Self: Sized;

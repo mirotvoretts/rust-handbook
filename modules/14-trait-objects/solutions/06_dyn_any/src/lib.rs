@@ -1,4 +1,4 @@
-//! 06 (2x) — dyn Any и downcast. Эталонное решение.
+//! 06 (2x) - dyn Any и downcast. Эталонное решение.
 
 use std::any::Any;
 

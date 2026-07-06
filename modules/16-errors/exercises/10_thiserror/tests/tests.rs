@@ -18,6 +18,6 @@ fn missing_key() {
 fn derive_generated_everything() {
     let err = get_number(&["a=x"], "a").unwrap_err();
     assert!(matches!(err, ConfigError::BadNumber(_)));
-    assert!(!err.to_string().is_empty());  // Display — из #[error]
-    assert!(err.source().is_some());       // source — из #[from]
+    assert!(!err.to_string().is_empty());  // Display - из #[error]
+    assert!(err.source().is_some());       // source - из #[from]
 }

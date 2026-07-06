@@ -1,4 +1,4 @@
-//! 11 (3x) — anyhow: ошибки приложения. Эталонное решение.
+//! 11 (3x) - anyhow: ошибки приложения. Эталонное решение.
 
 use anyhow::{bail, Context, Result};
 
@@ -19,7 +19,7 @@ pub fn mean_of_line(line: &str) -> Result<f64> {
     Ok(sum / count as f64)
 }
 
-/// Среднее по нескольким строкам, с контекстом «строка N» при ошибке.
+/// Среднее по нескольким строкам, с контекстом "строка N" при ошибке.
 pub fn mean_per_line(lines: &[&str]) -> Result<Vec<f64>> {
     let mut out = Vec::new();
     for (i, line) in lines.iter().enumerate() {

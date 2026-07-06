@@ -27,7 +27,7 @@ fn empty_gives_none() {
 #[test]
 fn first_max_wins() {
     let xs = [(2, "first"), (2, "second")];
-    // кортежи сравниваются лексикографически; (2,"f") < (2,"s"), максимум — second
+    // кортежи сравниваются лексикографически; (2,"f") < (2,"s"), максимум - second
     assert_eq!(largest(&xs), Some(&(2, "second")));
 }
 

@@ -1,4 +1,4 @@
-//! 02 (0x) — Константы `const`. Эталонное решение.
+//! 02 (0x) - Константы `const`. Эталонное решение.
 
 pub fn seconds_in_days(days: i64) -> i64 {
     const SECONDS_PER_DAY: i64 = 86_400;

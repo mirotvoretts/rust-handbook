@@ -1,4 +1,4 @@
-//! 06 (1x) — Consuming builder. Эталонное решение.
+//! 06 (1x) - Consuming builder. Эталонное решение.
 
 #[derive(Debug, PartialEq)]
 pub struct Config {

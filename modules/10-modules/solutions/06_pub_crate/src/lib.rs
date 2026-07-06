@@ -1,4 +1,4 @@
-//! 06 (1x) — Видимость `pub(crate)`. Эталонное решение.
+//! 06 (1x) - Видимость `pub(crate)`. Эталонное решение.
 
 pub mod config {
     pub(crate) fn internal_default() -> i32 {

@@ -1,8 +1,8 @@
-//! 08 (2x) — Составные присваивания.
+//! 08 (2x) - Составные присваивания.
 //!
-//! `+=` — это НЕ автоматический сахар над Add: AddAssign — отдельный трейт с &mut self.
+//! `+=` - это НЕ автоматический сахар над Add: AddAssign - отдельный трейт с &mut self.
 //! Ресурсный счётчик: add_assign докладывает ресурсы, sub_assign списывает С НАСЫЩЕНИЕМ
-//! (не ниже нуля — saturating_sub).
+//! (не ниже нуля - saturating_sub).
 
 #[derive(Debug, PartialEq, Clone, Copy)]
 pub struct Resources(pub u32);

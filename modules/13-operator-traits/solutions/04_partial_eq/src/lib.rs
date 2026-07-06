@@ -1,4 +1,4 @@
-//! 04 (1x) — Ручной PartialEq и сравнение разных типов. Эталонное решение.
+//! 04 (1x) - Ручной PartialEq и сравнение разных типов. Эталонное решение.
 
 #[derive(Debug)]
 pub struct Username(pub String);

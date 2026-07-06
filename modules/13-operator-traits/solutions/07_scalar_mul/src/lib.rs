@@ -1,4 +1,4 @@
-//! 07 (2x) — Rhs ≠ Self и унарный минус. Эталонное решение.
+//! 07 (2x) - Rhs ≠ Self и унарный минус. Эталонное решение.
 
 #[derive(Debug, Clone, Copy, PartialEq)]
 pub struct Vec2 {

@@ -21,6 +21,6 @@ fn windows_are_borrows_not_copies() {
     let c = Chunks { data: vec![10, 20], size: 1 };
     let w = c.window_at(1).unwrap();
     assert_eq!(w[0], 20);
-    // w — заём из c: c жива, пока жив w (NLL следит)
+    // w - заём из c: c жива, пока жив w (NLL следит)
     assert_eq!(c.data.len(), 2);
 }

@@ -1,4 +1,4 @@
-//! 04 (2x) — Blanket impl. Эталонное решение.
+//! 04 (2x) - Blanket impl. Эталонное решение.
 
 use std::fmt;
 

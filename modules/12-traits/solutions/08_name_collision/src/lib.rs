@@ -1,4 +1,4 @@
-//! 08 (2x) — Коллизии имён и fully qualified syntax. Эталонное решение.
+//! 08 (2x) - Коллизии имён и fully qualified syntax. Эталонное решение.
 
 pub trait Pilot {
     fn fly(&self) -> String;

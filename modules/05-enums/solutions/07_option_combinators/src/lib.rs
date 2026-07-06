@@ -1,4 +1,4 @@
-//! 07 (1x) — Комбинаторы `Option`. Эталонное решение.
+//! 07 (1x) - Комбинаторы `Option`. Эталонное решение.
 
 pub fn double_opt(opt: Option<i32>) -> Option<i32> {
     opt.map(|x| x * 2)

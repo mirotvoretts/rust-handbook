@@ -1,4 +1,4 @@
-//! 01 (0x) — Enum без данных и методы через `match`. Эталонное решение.
+//! 01 (0x) - Enum без данных и методы через `match`. Эталонное решение.
 
 #[derive(Clone, Copy, PartialEq, Debug)]
 pub enum Direction {

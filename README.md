@@ -79,7 +79,7 @@ MIT. See [LICENSE](LICENSE).
 - [Программа курса](#программа-курса)
 - [Требования](#требования)
 - [Лицензия](#лицензия)
-- [English version](#rust-course)
+- [English version](#rust-handbook)
 
 ## Как устроено
 

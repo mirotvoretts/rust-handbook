@@ -1,4 +1,4 @@
-//! 06 (1x) — Tuple-структуры. Эталонное решение.
+//! 06 (1x) - Tuple-структуры. Эталонное решение.
 
 #[derive(Clone, Copy, PartialEq, Debug)]
 pub struct Rgb(pub u8, pub u8, pub u8);

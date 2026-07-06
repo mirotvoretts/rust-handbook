@@ -13,7 +13,7 @@ fn clone_works_without_t_clone() {
 #[test]
 fn copy_works_too() {
     let id: TypedId<NotCloneTag> = TypedId::new(7);
-    let a = id; // move? нет — Copy!
+    let a = id; // move? нет - Copy!
     let b = id; // если Copy не реализован, здесь use-after-move
     assert_eq!(a.id + b.id, 14);
 }
@@ -30,5 +30,5 @@ fn ids_of_different_tags_are_different_types() {
     let user: TypedId<UserTag> = TypedId::new(1);
     let _order: TypedId<OrderTag> = TypedId::new(2);
     assert_eq!(take_user_id(user), 1);
-    // take_user_id(_order) — не скомпилировалось бы: разные типы
+    // take_user_id(_order) - не скомпилировалось бы: разные типы
 }

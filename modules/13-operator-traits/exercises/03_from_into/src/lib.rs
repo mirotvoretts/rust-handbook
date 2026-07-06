@@ -1,6 +1,6 @@
-//! 03 (0x) — From и бесплатный Into.
+//! 03 (0x) - From и бесплатный Into.
 //!
-//! Реализуйте From-конверсии между единицами. Into НЕ реализуйте — он появится сам
+//! Реализуйте From-конверсии между единицами. Into НЕ реализуйте - он появится сам
 //! (blanket impl в std: `impl<T, U: From<T>> Into<U> for T`). Тесты вызывают .into().
 
 #[derive(Debug, PartialEq, Clone, Copy)]

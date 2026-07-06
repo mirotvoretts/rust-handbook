@@ -1,7 +1,7 @@
-//! 02 (0x) — &dyn без аллокаций.
+//! 02 (0x) - &dyn без аллокаций.
 //!
-//! Trait object не обязан жить в Box: &dyn Trait — заём. Реализуйте Loud для типов и
-//! shout_all, принимающую срез ссылок. Заметьте сигнатуру &[&dyn Loud] — вектор
+//! Trait object не обязан жить в Box: &dyn Trait - заём. Реализуйте Loud для типов и
+//! shout_all, принимающую срез ссылок. Заметьте сигнатуру &[&dyn Loud] - вектор
 //! ссылок на разнотипные значения, живущие на стеке вызывающего.
 
 pub trait Loud {
@@ -21,7 +21,7 @@ impl Loud for Siren {
 
 impl Loud for Speaker {
     fn shout(&self) -> String {
-        todo!("BOOM x volume: строка 'BOOM' повторённая volume раз — метод repeat")
+        todo!("BOOM x volume: строка 'BOOM' повторённая volume раз - метод repeat")
     }
 }
 

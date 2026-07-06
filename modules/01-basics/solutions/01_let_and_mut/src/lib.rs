@@ -1,4 +1,4 @@
-//! 01 (0x) — Привязки `let`/`mut`. Эталонное решение.
+//! 01 (0x) - Привязки `let`/`mut`. Эталонное решение.
 
 pub fn increment_thrice(start: i32) -> i32 {
     let mut acc = start;

@@ -1,4 +1,4 @@
-//! 02 (0x) — `Copy` против не-`Copy`. Эталонное решение.
+//! 02 (0x) - `Copy` против не-`Copy`. Эталонное решение.
 
 #[derive(Clone, Copy, Debug, PartialEq)]
 pub struct Point {

@@ -1,4 +1,4 @@
-//! 05 (2x) — Маркер-трейт как статическая печать. Эталонное решение.
+//! 05 (2x) - Маркер-трейт как статическая печать. Эталонное решение.
 
 pub trait Named {
     fn name(&self) -> &'static str;
@@ -24,7 +24,7 @@ impl Named for ExperimentalSort {
 
 impl Approved for StableSort {}
 
-/// «Разворачивает» алгоритм: доступно только одобренным.
+/// "Разворачивает" алгоритм: доступно только одобренным.
 pub fn deploy<T: Approved + Named>(algo: &T) -> String {
     format!("deployed: {}", algo.name())
 }

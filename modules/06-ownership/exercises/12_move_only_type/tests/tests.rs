@@ -7,7 +7,7 @@ fn open_access_close() {
     assert_eq!(h.path(), "/tmp/data.txt");
     let path = h.close();
     assert_eq!(path, "/tmp/data.txt");
-    // после close переменная `h` moved-from — обратиться к ней уже нельзя (проверено компилятором)
+    // после close переменная `h` moved-from - обратиться к ней уже нельзя (проверено компилятором)
 }
 
 #[test]

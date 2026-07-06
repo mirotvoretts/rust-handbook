@@ -20,7 +20,7 @@ fn registry_dispatches_by_name() {
     assert_eq!(r.dispatch("nope", 0), None);
 }
 
-// Свой тип из теста — реестр открыт для расширения без правки крейта.
+// Свой тип из теста - реестр открыт для расширения без правки крейта.
 struct Doubler;
 impl Command for Doubler {
     fn execute(&mut self, arg: i64) -> String {

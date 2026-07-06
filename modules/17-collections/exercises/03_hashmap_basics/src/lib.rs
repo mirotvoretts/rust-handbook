@@ -1,7 +1,7 @@
-//! 03 (0x) — HashMap: базовые операции.
+//! 03 (0x) - HashMap: базовые операции.
 //!
-//! insert возвращает старое значение (Option), get — Option<&V>, remove — Option<V>.
-//! Обратите внимание: get принимает &K (и даже &str для ключа String — Borrow).
+//! insert возвращает старое значение (Option), get - Option<&V>, remove - Option<V>.
+//! Обратите внимание: get принимает &K (и даже &str для ключа String - Borrow).
 
 use std::collections::HashMap;
 
