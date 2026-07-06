@@ -2,7 +2,7 @@
 
 [![verify](https://github.com/mirotvoretts/rust-handbook/actions/workflows/verify.yml/badge.svg)](https://github.com/mirotvoretts/rust-handbook/actions/workflows/verify.yml)
 
-*[Русская версия ниже](#курс-rust)*
+*[Русская версия ниже](#справочник-по-rust)*
 
 A Rust course focused on the memory model and systems programming. Theory
 explains exactly what the language guarantees and what it compiles down to;
@@ -15,7 +15,7 @@ exercises reinforce every topic with code that must pass a fixed test suite.
 - [Curriculum](#curriculum)
 - [Requirements](#requirements)
 - [License](#license)
-- [Русская версия](#курс-rust)
+- [Русская версия](#справочник-по-rust)
 
 ## How it's organized
 
@@ -65,6 +65,8 @@ their own `Cargo.toml`.
 MIT. See [LICENSE](LICENSE).
 
 ---
+
+# Справочник по Rust 
 
 Курс по Rust с упором на модель памяти и системное программирование.
 Теория разбирает, что именно язык гарантирует и во что это компилируется; упражнения
