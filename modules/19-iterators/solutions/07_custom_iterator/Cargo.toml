@@ -1,0 +1,5 @@
+[package]
+name = "sol-19-07-custom-iterator"
+version = "0.1.0"
+edition = "2021"
+publish = false

@@ -1,0 +1,5 @@
+[package]
+name = "sol-19-06-lazy-toolbox"
+version = "0.1.0"
+edition = "2021"
+publish = false
