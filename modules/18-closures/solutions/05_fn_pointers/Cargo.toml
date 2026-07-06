@@ -1,0 +1,5 @@
+[package]
+name = "sol-18-05-fn-pointers"
+version = "0.1.0"
+edition = "2021"
+publish = false

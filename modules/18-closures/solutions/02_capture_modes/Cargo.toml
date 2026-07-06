@@ -1,0 +1,5 @@
+[package]
+name = "sol-18-02-capture-modes"
+version = "0.1.0"
+edition = "2021"
+publish = false

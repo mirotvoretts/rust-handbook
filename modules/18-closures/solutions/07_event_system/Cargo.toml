@@ -1,0 +1,5 @@
+[package]
+name = "sol-18-07-event-system"
+version = "0.1.0"
+edition = "2021"
+publish = false
