@@ -3,6 +3,10 @@
 pub trait Buffer {
     fn len(&self) -> usize;
 
+    fn is_empty(&self) -> bool {
+        self.len() == 0
+    }
+
     fn push_byte(&mut self, b: u8);
 
     /// Свежая пустая копия того же типа. `where Self: Sized` прячет метод от

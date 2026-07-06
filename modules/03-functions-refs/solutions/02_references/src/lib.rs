@@ -12,6 +12,6 @@ pub fn max_ref(a: &i32, b: &i32) -> i32 {
     }
 }
 
-pub fn len_of(s: &String) -> usize {
+pub fn len_of(s: &str) -> usize {
     s.len()
 }

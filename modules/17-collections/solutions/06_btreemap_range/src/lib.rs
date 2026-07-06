@@ -6,6 +6,12 @@ pub struct EventLog {
     events: BTreeMap<u64, String>,
 }
 
+impl Default for EventLog {
+    fn default() -> Self {
+        Self::new()
+    }
+}
+
 impl EventLog {
     pub fn new() -> Self {
         EventLog { events: BTreeMap::new() }

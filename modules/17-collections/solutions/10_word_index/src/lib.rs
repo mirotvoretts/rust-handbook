@@ -12,7 +12,7 @@ impl WordIndex {
     pub fn build(text: &str) -> Self {
         let mut positions: HashMap<String, Vec<usize>> = HashMap::new();
         for (i, word) in text.split_whitespace().enumerate() {
-            positions.entry(word.to_lowercase()).or_insert_with(Vec::new).push(i);
+            positions.entry(word.to_lowercase()).or_default().push(i);
         }
         WordIndex { positions }
     }

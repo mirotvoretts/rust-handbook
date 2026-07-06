@@ -11,6 +11,12 @@ impl fmt::Display for CsvRow {
     }
 }
 
+impl Default for CsvRow {
+    fn default() -> Self {
+        Self::new()
+    }
+}
+
 impl CsvRow {
     /// Пустая строка CSV.
     pub fn new() -> Self {

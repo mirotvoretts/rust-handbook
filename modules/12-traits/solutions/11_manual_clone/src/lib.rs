@@ -16,7 +16,7 @@ impl<T> TypedId<T> {
 
 impl<T> Clone for TypedId<T> {
     fn clone(&self) -> Self {
-        TypedId { id: self.id, _marker: PhantomData }
+        *self
     }
 }
 

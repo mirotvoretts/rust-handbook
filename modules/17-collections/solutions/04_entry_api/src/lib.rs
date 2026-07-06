@@ -18,7 +18,7 @@ pub fn group_by_first_char(words: &[&str]) -> HashMap<char, Vec<String>> {
         let Some(first) = word.chars().next() else {
             continue;
         };
-        groups.entry(first).or_insert_with(Vec::new).push(word.to_string());
+        groups.entry(first).or_default().push(word.to_string());
     }
     groups
 }

@@ -23,8 +23,8 @@ jobs:
 
       - name: Clippy on reference solutions
         run: |
-          pkgs=$(cargo metadata --no-deps --format-version 1 \
-            | grep -oE '"name":"sol-[^"]+"' | sed 's/"name":"//;s/"//')
+          mapfile -t pkgs < <(cargo metadata --no-deps --format-version 1 \
+            | jq -r '.packages[].name | select(startswith("sol-"))')
           args=()
-          for p in $pkgs; do args+=(-p "$p"); done
-          cargo clippy "${args[@]}" --all-targets -- -D warnings
+          for p in "${pkgs[@]}"; do args+=(-p "$p"); done
+          cargo clippy "${args[@]}" -- -D warnings

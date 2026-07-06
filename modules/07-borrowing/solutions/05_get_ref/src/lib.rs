@@ -5,10 +5,5 @@ pub fn get(xs: &[i32], i: usize) -> Option<&i32> {
 }
 
 pub fn find(xs: &[i32], target: i32) -> Option<&i32> {
-    for x in xs {
-        if *x == target {
-            return Some(x);
-        }
-    }
-    None
+    xs.iter().find(|&&x| x == target)
 }

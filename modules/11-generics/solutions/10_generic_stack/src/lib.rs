@@ -4,6 +4,12 @@ pub struct Stack<T> {
     items: Vec<T>,
 }
 
+impl<T> Default for Stack<T> {
+    fn default() -> Self {
+        Self::new()
+    }
+}
+
 impl<T> Stack<T> {
     /// Пустой стек.
     pub fn new() -> Self {

@@ -6,7 +6,7 @@ pub fn sum_to(n: i32) -> i32 {
     let mut total = 0;
     let mut i = 1;
     while i <= n {
-        total = total + i;
+        total += i;
         i += 1;
     }
     total

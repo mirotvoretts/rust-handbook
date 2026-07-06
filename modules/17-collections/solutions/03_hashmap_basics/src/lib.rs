@@ -7,6 +7,12 @@ pub struct Phonebook {
     entries: HashMap<String, String>,
 }
 
+impl Default for Phonebook {
+    fn default() -> Self {
+        Self::new()
+    }
+}
+
 impl Phonebook {
     pub fn new() -> Self {
         Phonebook { entries: HashMap::new() }
@@ -29,5 +35,9 @@ impl Phonebook {
 
     pub fn len(&self) -> usize {
         self.entries.len()
+    }
+
+    pub fn is_empty(&self) -> bool {
+        self.entries.is_empty()
     }
 }

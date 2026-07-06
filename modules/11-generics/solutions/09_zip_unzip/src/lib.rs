@@ -2,16 +2,7 @@
 
 /// [a1,a2,...] + [b1,b2,...] -> [(a1,b1), (a2,b2), ...]; длина = min(len_a, len_b).
 pub fn zip_pairs<A, B>(xs: Vec<A>, ys: Vec<B>) -> Vec<(A, B)> {
-    let mut out = Vec::new();
-    let mut it_a = xs.into_iter();
-    let mut it_b = ys.into_iter();
-    loop {
-        match (it_a.next(), it_b.next()) {
-            (Some(a), Some(b)) => out.push((a, b)),
-            _ => break,
-        }
-    }
-    out
+    xs.into_iter().zip(ys).collect()
 }
 
 /// [(a1,b1), ...] -> ([a1,...], [b1,...]).

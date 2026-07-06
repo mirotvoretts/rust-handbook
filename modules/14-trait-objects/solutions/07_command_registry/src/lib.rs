@@ -30,6 +30,12 @@ pub struct Registry {
     commands: Vec<(String, Box<dyn Command>)>,
 }
 
+impl Default for Registry {
+    fn default() -> Self {
+        Self::new()
+    }
+}
+
 impl Registry {
     pub fn new() -> Self {
         Registry { commands: Vec::new() }

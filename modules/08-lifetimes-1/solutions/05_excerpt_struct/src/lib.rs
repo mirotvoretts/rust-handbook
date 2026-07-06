@@ -16,4 +16,8 @@ impl<'a> Excerpt<'a> {
     pub fn len(&self) -> usize {
         self.part.len()
     }
+
+    pub fn is_empty(&self) -> bool {
+        self.part.is_empty()
+    }
 }

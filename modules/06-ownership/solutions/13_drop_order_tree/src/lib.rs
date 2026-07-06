@@ -5,7 +5,11 @@ use std::rc::Rc;
 
 pub struct Tree {
     id: u32,
+    // поля никогда не читаются - их роль только в том, чтобы владеть поддеревьями,
+    // и Drop сработает на них рекурсивно в правильном порядке
+    #[allow(dead_code)]
     left: Option<Box<Tree>>,
+    #[allow(dead_code)]
     right: Option<Box<Tree>>,
     log: Rc<RefCell<Vec<u32>>>,
 }

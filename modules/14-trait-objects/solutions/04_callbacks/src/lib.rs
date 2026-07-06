@@ -6,6 +6,12 @@ pub struct Pipeline {
     steps: Vec<Step>,
 }
 
+impl Default for Pipeline {
+    fn default() -> Self {
+        Self::new()
+    }
+}
+
 impl Pipeline {
     pub fn new() -> Self {
         Pipeline { steps: Vec::new() }

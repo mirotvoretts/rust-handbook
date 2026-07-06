@@ -26,4 +26,8 @@ impl SlidingAverage {
     pub fn len(&self) -> usize {
         self.window.len()
     }
+
+    pub fn is_empty(&self) -> bool {
+        self.window.is_empty()
+    }
 }

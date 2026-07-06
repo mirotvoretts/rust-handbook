@@ -4,7 +4,7 @@
 
 pub fn countdown_from(start: i32) -> i32 {
     let mut counter = start;
-    counter = counter - 1;
-    counter = counter - 1;
+    counter -= 1;
+    counter -= 1;
     counter
 }
