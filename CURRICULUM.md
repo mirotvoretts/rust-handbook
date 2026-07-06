@@ -35,7 +35,7 @@
 - **M16** `Option`/`Result` глубоко, `?`, свои типы ошибок, `From`-конверсии, `panic!`, паника и `Drop`/RAII, `thiserror`/`anyhow`. **<- готов**
 
 ## Часть VI - Коллекции, замыкания, итераторы
-- **M17** Коллекции: `Vec`, `VecDeque`, `HashMap`, `BTreeMap`, `HashSet`, `String`/`&str`, `Cow`.
+- **M17** Коллекции: `Vec`, `VecDeque`, `HashMap`, `BTreeMap`, `HashSet`, `String`/`&str`, `Cow`. **<- готов**
 - **M18** Замыкания: `Fn`/`FnMut`/`FnOnce`, захваты, `move`.
 - **M19** Итераторы: трейт `Iterator`, адаптеры, ленивость, свой итератор, `IntoIterator`.
 
