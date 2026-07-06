@@ -19,7 +19,7 @@ jobs:
       - uses: Swatinem/rust-cache@v2
 
       - name: Verify all reference solutions compile and pass their tests
-        run: ./scripts/verify.sh
+        run: bash scripts/verify.sh
 
       - name: Clippy on reference solutions
         run: |
