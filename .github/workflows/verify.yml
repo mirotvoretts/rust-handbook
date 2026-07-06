@@ -1,0 +1,30 @@
+name: verify
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  solutions:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Rust toolchain
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          components: clippy, rustfmt
+
+      - uses: Swatinem/rust-cache@v2
+
+      - name: Verify all reference solutions compile and pass their tests
+        run: ./scripts/verify.sh
+
+      - name: Clippy on reference solutions
+        run: |
+          pkgs=$(cargo metadata --no-deps --format-version 1 \
+            | grep -oE '"name":"sol-[^"]+"' | sed 's/"name":"//;s/"//')
+          args=()
+          for p in $pkgs; do args+=(-p "$p"); done
+          cargo clippy "${args[@]}" --all-targets -- -D warnings
