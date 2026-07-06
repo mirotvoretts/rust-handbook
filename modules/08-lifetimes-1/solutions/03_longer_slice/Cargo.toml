@@ -1,0 +1,5 @@
+[package]
+name = "sol-08-03-longer-slice"
+version = "0.1.0"
+edition = "2021"
+publish = false

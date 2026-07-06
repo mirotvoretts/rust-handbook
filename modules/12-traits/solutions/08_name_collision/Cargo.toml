@@ -1,0 +1,5 @@
+[package]
+name = "sol-12-08-name-collision"
+version = "0.1.0"
+edition = "2021"
+publish = false

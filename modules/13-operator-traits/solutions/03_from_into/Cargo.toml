@@ -1,0 +1,5 @@
+[package]
+name = "sol-13-03-from-into"
+version = "0.1.0"
+edition = "2021"
+publish = false

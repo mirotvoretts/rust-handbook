@@ -1,0 +1,5 @@
+[package]
+name = "sol-16-09-drop-panic-guard"
+version = "0.1.0"
+edition = "2021"
+publish = false

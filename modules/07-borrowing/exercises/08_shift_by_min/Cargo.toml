@@ -1,0 +1,5 @@
+[package]
+name = "ex-07-08-shift-by-min"
+version = "0.1.0"
+edition = "2021"
+publish = false

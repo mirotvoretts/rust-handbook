@@ -1,0 +1,5 @@
+[package]
+name = "sol-11-02-generic-struct"
+version = "0.1.0"
+edition = "2021"
+publish = false

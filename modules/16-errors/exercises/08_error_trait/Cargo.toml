@@ -1,0 +1,5 @@
+[package]
+name = "ex-16-08-error-trait"
+version = "0.1.0"
+edition = "2021"
+publish = false

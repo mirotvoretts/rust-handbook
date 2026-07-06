@@ -1,0 +1,5 @@
+[package]
+name = "ex-00-05-doctest"
+version = "0.1.0"
+edition = "2021"
+publish = false

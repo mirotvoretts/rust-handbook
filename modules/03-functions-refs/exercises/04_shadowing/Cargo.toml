@@ -1,0 +1,5 @@
+[package]
+name = "ex-03-04-shadowing"
+version = "0.1.0"
+edition = "2021"
+publish = false

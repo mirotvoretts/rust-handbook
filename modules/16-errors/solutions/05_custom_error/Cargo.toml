@@ -1,0 +1,5 @@
+[package]
+name = "sol-16-05-custom-error"
+version = "0.1.0"
+edition = "2021"
+publish = false

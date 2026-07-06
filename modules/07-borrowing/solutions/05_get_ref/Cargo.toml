@@ -1,0 +1,5 @@
+[package]
+name = "sol-07-05-get-ref"
+version = "0.1.0"
+edition = "2021"
+publish = false

@@ -1,0 +1,5 @@
+[package]
+name = "sol-15-06-gat-windows"
+version = "0.1.0"
+edition = "2021"
+publish = false

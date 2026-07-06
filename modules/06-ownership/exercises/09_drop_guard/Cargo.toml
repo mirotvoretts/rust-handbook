@@ -1,0 +1,5 @@
+[package]
+name = "ex-06-09-drop-guard"
+version = "0.1.0"
+edition = "2021"
+publish = false

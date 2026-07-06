@@ -1,0 +1,5 @@
+[package]
+name = "sol-17-04-entry-api"
+version = "0.1.0"
+edition = "2021"
+publish = false

@@ -1,0 +1,5 @@
+[package]
+name = "sol-10-07-struct-field-privacy"
+version = "0.1.0"
+edition = "2021"
+publish = false

@@ -1,0 +1,5 @@
+[package]
+name = "sol-14-07-command-registry"
+version = "0.1.0"
+edition = "2021"
+publish = false

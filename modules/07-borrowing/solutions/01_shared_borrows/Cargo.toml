@@ -1,0 +1,5 @@
+[package]
+name = "sol-07-01-shared-borrows"
+version = "0.1.0"
+edition = "2021"
+publish = false

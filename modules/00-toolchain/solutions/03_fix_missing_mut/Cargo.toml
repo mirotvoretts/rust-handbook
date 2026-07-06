@@ -1,0 +1,5 @@
+[package]
+name = "sol-00-03-fix-missing-mut"
+version = "0.1.0"
+edition = "2021"
+publish = false

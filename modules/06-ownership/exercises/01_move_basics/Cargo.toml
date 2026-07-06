@@ -1,0 +1,5 @@
+[package]
+name = "ex-06-01-move-basics"
+version = "0.1.0"
+edition = "2021"
+publish = false

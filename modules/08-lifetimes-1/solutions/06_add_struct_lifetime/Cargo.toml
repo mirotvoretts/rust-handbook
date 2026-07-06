@@ -1,0 +1,5 @@
+[package]
+name = "sol-08-06-add-struct-lifetime"
+version = "0.1.0"
+edition = "2021"
+publish = false

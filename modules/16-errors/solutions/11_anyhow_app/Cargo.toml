@@ -1,0 +1,8 @@
+[package]
+name = "sol-16-11-anyhow-app"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+anyhow = "1"

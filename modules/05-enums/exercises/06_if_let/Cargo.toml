@@ -1,0 +1,5 @@
+[package]
+name = "ex-05-06-if-let"
+version = "0.1.0"
+edition = "2021"
+publish = false

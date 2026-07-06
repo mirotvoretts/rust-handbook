@@ -1,0 +1,5 @@
+[package]
+name = "ex-06-04-drop-prints"
+version = "0.1.0"
+edition = "2021"
+publish = false

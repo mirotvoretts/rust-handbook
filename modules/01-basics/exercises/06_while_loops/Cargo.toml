@@ -1,0 +1,5 @@
+[package]
+name = "ex-01-06-while-loops"
+version = "0.1.0"
+edition = "2021"
+publish = false

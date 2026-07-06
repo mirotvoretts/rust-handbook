@@ -1,0 +1,5 @@
+[package]
+name = "ex-12-03-impl-for-foreign"
+version = "0.1.0"
+edition = "2021"
+publish = false

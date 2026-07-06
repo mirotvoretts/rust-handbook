@@ -1,0 +1,9 @@
+# Виртуальный workspace курса: каждое упражнение и каждое решение — отдельный крейт.
+# Запуск всего сразу:   cargo test --workspace
+# Одно упражнение:      cargo test -p ex-06-01-move-basics
+[workspace]
+resolver = "2"
+members = [
+    "modules/*/exercises/*",
+    "modules/*/solutions/*",
+]

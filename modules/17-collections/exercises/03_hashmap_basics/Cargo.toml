@@ -1,0 +1,5 @@
+[package]
+name = "ex-17-03-hashmap-basics"
+version = "0.1.0"
+edition = "2021"
+publish = false

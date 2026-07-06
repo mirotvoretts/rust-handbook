@@ -1,0 +1,5 @@
+[package]
+name = "ex-06-07-option-take"
+version = "0.1.0"
+edition = "2021"
+publish = false

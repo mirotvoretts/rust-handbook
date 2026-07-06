@@ -1,0 +1,5 @@
+[package]
+name = "ex-16-01-option-combinators"
+version = "0.1.0"
+edition = "2021"
+publish = false

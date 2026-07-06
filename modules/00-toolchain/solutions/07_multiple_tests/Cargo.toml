@@ -1,0 +1,5 @@
+[package]
+name = "sol-00-07-multiple-tests"
+version = "0.1.0"
+edition = "2021"
+publish = false

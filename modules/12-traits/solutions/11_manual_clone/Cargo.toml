@@ -1,0 +1,5 @@
+[package]
+name = "sol-12-11-manual-clone"
+version = "0.1.0"
+edition = "2021"
+publish = false

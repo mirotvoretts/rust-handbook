@@ -1,0 +1,5 @@
+[package]
+name = "ex-11-06-bounded-largest"
+version = "0.1.0"
+edition = "2021"
+publish = false

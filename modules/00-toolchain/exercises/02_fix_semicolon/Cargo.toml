@@ -1,0 +1,5 @@
+[package]
+name = "ex-00-02-fix-semicolon"
+version = "0.1.0"
+edition = "2021"
+publish = false

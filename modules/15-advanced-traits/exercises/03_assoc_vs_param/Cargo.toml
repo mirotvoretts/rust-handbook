@@ -1,0 +1,5 @@
+[package]
+name = "ex-15-03-assoc-vs-param"
+version = "0.1.0"
+edition = "2021"
+publish = false

@@ -1,0 +1,5 @@
+[package]
+name = "ex-07-03-borrow-scope"
+version = "0.1.0"
+edition = "2021"
+publish = false

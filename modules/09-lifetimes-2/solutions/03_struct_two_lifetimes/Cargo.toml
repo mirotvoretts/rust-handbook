@@ -1,0 +1,5 @@
+[package]
+name = "sol-09-03-struct-two-lifetimes"
+version = "0.1.0"
+edition = "2021"
+publish = false

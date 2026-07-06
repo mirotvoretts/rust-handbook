@@ -1,0 +1,5 @@
+[package]
+name = "sol-00-06-should-panic"
+version = "0.1.0"
+edition = "2021"
+publish = false

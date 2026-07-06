@@ -1,0 +1,5 @@
+[package]
+name = "sol-12-07-supertrait"
+version = "0.1.0"
+edition = "2021"
+publish = false

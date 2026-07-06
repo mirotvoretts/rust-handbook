@@ -1,0 +1,5 @@
+[package]
+name = "ex-07-07-mut-slice-rules"
+version = "0.1.0"
+edition = "2021"
+publish = false
