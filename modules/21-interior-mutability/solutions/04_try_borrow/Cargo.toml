@@ -1,0 +1,5 @@
+[package]
+name = "sol-21-04-try-borrow"
+version = "0.1.0"
+edition = "2021"
+publish = false

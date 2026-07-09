@@ -1,0 +1,5 @@
+[package]
+name = "ex-21-05-shared-list"
+version = "0.1.0"
+edition = "2021"
+publish = false

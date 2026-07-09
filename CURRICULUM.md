@@ -36,12 +36,12 @@
 
 ## Часть VI - Коллекции, замыкания, итераторы
 - **M17** Коллекции: `Vec`, `VecDeque`, `HashMap`, `BTreeMap`, `HashSet`, `String`/`&str`, `Cow`. **<- готов**
-- **M18** Замыкания: `Fn`/`FnMut`/`FnOnce`, захваты, `move`.
-- **M19** Итераторы: трейт `Iterator`, адаптеры, ленивость, свой итератор, `IntoIterator`.
+- **M18** Замыкания: `Fn`/`FnMut`/`FnOnce`, захваты, `move`. **<- готов**
+- **M19** Итераторы: трейт `Iterator`, адаптеры, ленивость, свой итератор, `IntoIterator`. **<- готов**
 
 ## Часть VII - Умные указатели
-- **M20** `Box`/`Rc`/`Arc`, `Deref`/`Drop`, рекурсивные типы.
-- **M21** Interior mutability: `Cell`/`RefCell`, `Rc<RefCell>`, `Weak`, разрыв циклов.
+- **M20** `Box`/`Rc`/`Arc`, `Deref`/`Drop`, рекурсивные типы. **<- готов**
+- **M21** Interior mutability: `Cell`/`RefCell`, `Rc<RefCell>`, `Weak`, разрыв циклов. **<- готов**
 
 ## Часть VIII - Многопоточность
 - **M22** Потоки, `Send`/`Sync`, move-замыкания, scoped threads.

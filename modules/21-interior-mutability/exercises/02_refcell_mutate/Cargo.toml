@@ -1,0 +1,5 @@
+[package]
+name = "ex-21-02-refcell-mutate"
+version = "0.1.0"
+edition = "2021"
+publish = false
