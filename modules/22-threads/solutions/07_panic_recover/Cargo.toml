@@ -1,0 +1,5 @@
+[package]
+name = "sol-22-07-panic-recover"
+version = "0.1.0"
+edition = "2021"
+publish = false

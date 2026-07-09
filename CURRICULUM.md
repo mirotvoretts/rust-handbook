@@ -44,7 +44,7 @@
 - **M21** Interior mutability: `Cell`/`RefCell`, `Rc<RefCell>`, `Weak`, разрыв циклов. **<- готов**
 
 ## Часть VIII - Многопоточность
-- **M22** Потоки, `Send`/`Sync`, move-замыкания, scoped threads.
+- **M22** Потоки, `Send`/`Sync`, move-замыкания, scoped threads. **<- готов**
 - **M23** Разделяемое состояние: `Mutex`/`RwLock`, `Arc<Mutex>`, atomics, `Condvar`, poisoning.
 - **M24** Каналы (`mpsc`) и сеть: `TcpListener`/`TcpStream`.
 - **M25** async/await: `Future`, `Pin`/`Unpin`, `.await`, executors, async I/O.

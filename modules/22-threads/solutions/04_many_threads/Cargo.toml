@@ -1,0 +1,5 @@
+[package]
+name = "sol-22-04-many-threads"
+version = "0.1.0"
+edition = "2021"
+publish = false

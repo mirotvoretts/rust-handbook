@@ -871,6 +871,38 @@ name = "ex-21-08-cycle"
 version = "0.1.0"
 
 [[package]]
+name = "ex-22-01-spawn-join"
+version = "0.1.0"
+
+[[package]]
+name = "ex-22-02-move-capture"
+version = "0.1.0"
+
+[[package]]
+name = "ex-22-03-spawn-sum"
+version = "0.1.0"
+
+[[package]]
+name = "ex-22-04-many-threads"
+version = "0.1.0"
+
+[[package]]
+name = "ex-22-05-scoped-sum"
+version = "0.1.0"
+
+[[package]]
+name = "ex-22-06-scoped-max"
+version = "0.1.0"
+
+[[package]]
+name = "ex-22-07-panic-recover"
+version = "0.1.0"
+
+[[package]]
+name = "ex-22-08-parallel-double"
+version = "0.1.0"
+
+[[package]]
 name = "proc-macro2"
 version = "1.0.106"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1748,6 +1780,38 @@ version = "0.1.0"
 
 [[package]]
 name = "sol-21-08-cycle"
+version = "0.1.0"
+
+[[package]]
+name = "sol-22-01-spawn-join"
+version = "0.1.0"
+
+[[package]]
+name = "sol-22-02-move-capture"
+version = "0.1.0"
+
+[[package]]
+name = "sol-22-03-spawn-sum"
+version = "0.1.0"
+
+[[package]]
+name = "sol-22-04-many-threads"
+version = "0.1.0"
+
+[[package]]
+name = "sol-22-05-scoped-sum"
+version = "0.1.0"
+
+[[package]]
+name = "sol-22-06-scoped-max"
+version = "0.1.0"
+
+[[package]]
+name = "sol-22-07-panic-recover"
+version = "0.1.0"
+
+[[package]]
+name = "sol-22-08-parallel-double"
 version = "0.1.0"
 
 [[package]]
