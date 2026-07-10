@@ -1,0 +1,5 @@
+[package]
+name = "ex-24-03-multi-producer"
+version = "0.1.0"
+edition = "2021"
+publish = false

@@ -1,0 +1,5 @@
+[package]
+name = "sol-24-01-channel-sum"
+version = "0.1.0"
+edition = "2021"
+publish = false

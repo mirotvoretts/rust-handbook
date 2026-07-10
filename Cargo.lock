@@ -935,6 +935,38 @@ name = "ex-23-08-semaphore"
 version = "0.1.0"
 
 [[package]]
+name = "ex-24-01-channel-sum"
+version = "0.1.0"
+
+[[package]]
+name = "ex-24-02-channel-collect"
+version = "0.1.0"
+
+[[package]]
+name = "ex-24-03-multi-producer"
+version = "0.1.0"
+
+[[package]]
+name = "ex-24-04-pipeline"
+version = "0.1.0"
+
+[[package]]
+name = "ex-24-05-worker-pool"
+version = "0.1.0"
+
+[[package]]
+name = "ex-24-06-echo-server"
+version = "0.1.0"
+
+[[package]]
+name = "ex-24-07-line-sum-server"
+version = "0.1.0"
+
+[[package]]
+name = "ex-24-08-accumulator-server"
+version = "0.1.0"
+
+[[package]]
 name = "proc-macro2"
 version = "1.0.106"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1876,6 +1908,38 @@ version = "0.1.0"
 
 [[package]]
 name = "sol-23-08-semaphore"
+version = "0.1.0"
+
+[[package]]
+name = "sol-24-01-channel-sum"
+version = "0.1.0"
+
+[[package]]
+name = "sol-24-02-channel-collect"
+version = "0.1.0"
+
+[[package]]
+name = "sol-24-03-multi-producer"
+version = "0.1.0"
+
+[[package]]
+name = "sol-24-04-pipeline"
+version = "0.1.0"
+
+[[package]]
+name = "sol-24-05-worker-pool"
+version = "0.1.0"
+
+[[package]]
+name = "sol-24-06-echo-server"
+version = "0.1.0"
+
+[[package]]
+name = "sol-24-07-line-sum-server"
+version = "0.1.0"
+
+[[package]]
+name = "sol-24-08-accumulator-server"
 version = "0.1.0"
 
 [[package]]
