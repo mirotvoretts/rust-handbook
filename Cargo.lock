@@ -903,6 +903,38 @@ name = "ex-22-08-parallel-double"
 version = "0.1.0"
 
 [[package]]
+name = "ex-23-01-mutex-counter"
+version = "0.1.0"
+
+[[package]]
+name = "ex-23-02-atomic-counter"
+version = "0.1.0"
+
+[[package]]
+name = "ex-23-03-shared-vec"
+version = "0.1.0"
+
+[[package]]
+name = "ex-23-04-rwlock-registry"
+version = "0.1.0"
+
+[[package]]
+name = "ex-23-05-barrier"
+version = "0.1.0"
+
+[[package]]
+name = "ex-23-06-seat-counter"
+version = "0.1.0"
+
+[[package]]
+name = "ex-23-07-poison-recover"
+version = "0.1.0"
+
+[[package]]
+name = "ex-23-08-semaphore"
+version = "0.1.0"
+
+[[package]]
 name = "proc-macro2"
 version = "1.0.106"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1812,6 +1844,38 @@ version = "0.1.0"
 
 [[package]]
 name = "sol-22-08-parallel-double"
+version = "0.1.0"
+
+[[package]]
+name = "sol-23-01-mutex-counter"
+version = "0.1.0"
+
+[[package]]
+name = "sol-23-02-atomic-counter"
+version = "0.1.0"
+
+[[package]]
+name = "sol-23-03-shared-vec"
+version = "0.1.0"
+
+[[package]]
+name = "sol-23-04-rwlock-registry"
+version = "0.1.0"
+
+[[package]]
+name = "sol-23-05-barrier"
+version = "0.1.0"
+
+[[package]]
+name = "sol-23-06-seat-counter"
+version = "0.1.0"
+
+[[package]]
+name = "sol-23-07-poison-recover"
+version = "0.1.0"
+
+[[package]]
+name = "sol-23-08-semaphore"
 version = "0.1.0"
 
 [[package]]
