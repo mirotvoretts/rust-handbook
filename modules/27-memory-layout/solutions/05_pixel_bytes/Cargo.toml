@@ -1,0 +1,5 @@
+[package]
+name = "sol-27-05-pixel-bytes"
+version = "0.1.0"
+edition = "2021"
+publish = false

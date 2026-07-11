@@ -1,0 +1,8 @@
+[package]
+name = "sol-27-07-pod-cast"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+bytemuck = { version = "1", features = ["derive", "extern_crate_alloc"] }

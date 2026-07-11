@@ -1,0 +1,5 @@
+[package]
+name = "sol-27-03-repr-c-offsets"
+version = "0.1.0"
+edition = "2021"
+publish = false
