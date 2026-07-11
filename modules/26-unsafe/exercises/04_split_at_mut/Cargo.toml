@@ -1,0 +1,5 @@
+[package]
+name = "ex-26-04-split-at-mut"
+version = "0.1.0"
+edition = "2021"
+publish = false

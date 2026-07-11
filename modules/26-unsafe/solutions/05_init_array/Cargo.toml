@@ -1,0 +1,5 @@
+[package]
+name = "sol-26-05-init-array"
+version = "0.1.0"
+edition = "2021"
+publish = false

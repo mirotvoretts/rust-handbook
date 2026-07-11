@@ -1,0 +1,5 @@
+[package]
+name = "ex-26-07-stack"
+version = "0.1.0"
+edition = "2021"
+publish = false

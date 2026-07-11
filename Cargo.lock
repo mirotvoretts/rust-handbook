@@ -1026,6 +1026,38 @@ dependencies = [
 ]
 
 [[package]]
+name = "ex-26-01-deref-raw"
+version = "0.1.0"
+
+[[package]]
+name = "ex-26-02-write-through-raw"
+version = "0.1.0"
+
+[[package]]
+name = "ex-26-03-sum-raw"
+version = "0.1.0"
+
+[[package]]
+name = "ex-26-04-split-at-mut"
+version = "0.1.0"
+
+[[package]]
+name = "ex-26-05-init-array"
+version = "0.1.0"
+
+[[package]]
+name = "ex-26-06-replace"
+version = "0.1.0"
+
+[[package]]
+name = "ex-26-07-stack"
+version = "0.1.0"
+
+[[package]]
+name = "ex-26-08-chunks-mut"
+version = "0.1.0"
+
+[[package]]
 name = "futures"
 version = "0.3.32"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2186,6 +2218,38 @@ version = "0.1.0"
 dependencies = [
  "tokio",
 ]
+
+[[package]]
+name = "sol-26-01-deref-raw"
+version = "0.1.0"
+
+[[package]]
+name = "sol-26-02-write-through-raw"
+version = "0.1.0"
+
+[[package]]
+name = "sol-26-03-sum-raw"
+version = "0.1.0"
+
+[[package]]
+name = "sol-26-04-split-at-mut"
+version = "0.1.0"
+
+[[package]]
+name = "sol-26-05-init-array"
+version = "0.1.0"
+
+[[package]]
+name = "sol-26-06-replace"
+version = "0.1.0"
+
+[[package]]
+name = "sol-26-07-stack"
+version = "0.1.0"
+
+[[package]]
+name = "sol-26-08-chunks-mut"
+version = "0.1.0"
 
 [[package]]
 name = "syn"

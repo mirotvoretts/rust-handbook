@@ -1,0 +1,42 @@
+use sol_26_06_replace::replace;
+use std::sync::atomic::{AtomicUsize, Ordering};
+use std::sync::Arc;
+
+#[test]
+fn returns_old_sets_new() {
+    let mut v = 10;
+    let old = replace(&mut v, 99);
+    assert_eq!(old, 10);
+    assert_eq!(v, 99);
+}
+
+#[test]
+fn works_with_strings() {
+    let mut s = String::from("old");
+    let old = replace(&mut s, String::from("new"));
+    assert_eq!(old, "old");
+    assert_eq!(s, "new");
+}
+
+struct Counted(Arc<AtomicUsize>);
+impl Drop for Counted {
+    fn drop(&mut self) {
+        self.0.fetch_add(1, Ordering::SeqCst);
+    }
+}
+
+#[test]
+fn each_value_dropped_exactly_once() {
+    let drops = Arc::new(AtomicUsize::new(0));
+    let mut a = Counted(drops.clone());
+    let b = Counted(drops.clone());
+
+    let old = replace(&mut a, b);
+    assert_eq!(drops.load(Ordering::SeqCst), 0, "пока ничего не дропнуто");
+
+    drop(old);
+    assert_eq!(drops.load(Ordering::SeqCst), 1);
+
+    drop(a);
+    assert_eq!(drops.load(Ordering::SeqCst), 2);
+}

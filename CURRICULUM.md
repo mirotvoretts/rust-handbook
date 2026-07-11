@@ -50,7 +50,7 @@
 - **M25** async/await: `Future`, `Pin`/`Unpin`, `.await`, executors, async I/O. **<- готов**
 
 ## Часть IX - Небезопасность, память, FFI
-- **M26** `unsafe`: сырые указатели, `unsafe fn`/блок, инварианты, `MaybeUninit`, `ManuallyDrop`.
+- **M26** `unsafe`: сырые указатели, `unsafe fn`/блок, инварианты, `MaybeUninit`, `ManuallyDrop`. **<- готов**
 - **M27** Представление в памяти: `repr(C)`/`packed`/`transparent`, size/align, байтовый I/O, endianness, `bytemuck`.
 - **M28** Свои коллекции на unsafe: `NonNull`, свой `Vec`/`Box`, аллокаторы (`GlobalAlloc`).
 - **M29** FFI: `extern "C"`, линковка C, `bindgen`, union, вызов Rust из C.
