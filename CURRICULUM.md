@@ -47,7 +47,7 @@
 - **M22** Потоки, `Send`/`Sync`, move-замыкания, scoped threads. **<- готов**
 - **M23** Разделяемое состояние: `Mutex`/`RwLock`, `Arc<Mutex>`, atomics, `Condvar`, poisoning. **<- готов**
 - **M24** Каналы (`mpsc`) и сеть: `TcpListener`/`TcpStream`. **<- готов**
-- **M25** async/await: `Future`, `Pin`/`Unpin`, `.await`, executors, async I/O.
+- **M25** async/await: `Future`, `Pin`/`Unpin`, `.await`, executors, async I/O. **<- готов**
 
 ## Часть IX - Небезопасность, память, FFI
 - **M26** `unsafe`: сырые указатели, `unsafe fn`/блок, инварианты, `MaybeUninit`, `ManuallyDrop`.
