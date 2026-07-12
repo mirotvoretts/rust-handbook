@@ -53,7 +53,7 @@
 - **M26** `unsafe`: сырые указатели, `unsafe fn`/блок, инварианты, `MaybeUninit`, `ManuallyDrop`. **<- готов**
 - **M27** Представление в памяти: `repr(C)`/`packed`/`transparent`, size/align, байтовый I/O, endianness, `bytemuck`. **<- готов**
 - **M28** Свои коллекции на unsafe: `NonNull`, свой `Vec`/`Box`, аллокаторы (`GlobalAlloc`). **<- готов**
-- **M29** FFI: `extern "C"`, линковка C, `bindgen`, union, вызов Rust из C.
+- **M29** FFI: `extern "C"`, линковка C, `bindgen`, union, вызов Rust из C. **<- готов**
 
 ## Часть X - Метапрограммирование
 - **M30** Декларативные макросы: `macro_rules!`, повторения, гигиена, fragment specifiers.

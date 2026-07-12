@@ -1145,6 +1145,38 @@ name = "ex-28-08-vec-zst"
 version = "0.1.0"
 
 [[package]]
+name = "ex-29-01-extern-call"
+version = "0.1.0"
+
+[[package]]
+name = "ex-29-02-c-union"
+version = "0.1.0"
+
+[[package]]
+name = "ex-29-03-c-strings"
+version = "0.1.0"
+
+[[package]]
+name = "ex-29-04-export-abi"
+version = "0.1.0"
+
+[[package]]
+name = "ex-29-05-opaque-handle"
+version = "0.1.0"
+
+[[package]]
+name = "ex-29-06-panic-boundary"
+version = "0.1.0"
+
+[[package]]
+name = "ex-29-07-qsort-callback"
+version = "0.1.0"
+
+[[package]]
+name = "ex-29-08-callback-userdata"
+version = "0.1.0"
+
+[[package]]
 name = "futures"
 version = "0.3.32"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2403,6 +2435,38 @@ version = "0.1.0"
 
 [[package]]
 name = "sol-28-08-vec-zst"
+version = "0.1.0"
+
+[[package]]
+name = "sol-29-01-extern-call"
+version = "0.1.0"
+
+[[package]]
+name = "sol-29-02-c-union"
+version = "0.1.0"
+
+[[package]]
+name = "sol-29-03-c-strings"
+version = "0.1.0"
+
+[[package]]
+name = "sol-29-04-export-abi"
+version = "0.1.0"
+
+[[package]]
+name = "sol-29-05-opaque-handle"
+version = "0.1.0"
+
+[[package]]
+name = "sol-29-06-panic-boundary"
+version = "0.1.0"
+
+[[package]]
+name = "sol-29-07-qsort-callback"
+version = "0.1.0"
+
+[[package]]
+name = "sol-29-08-callback-userdata"
 version = "0.1.0"
 
 [[package]]

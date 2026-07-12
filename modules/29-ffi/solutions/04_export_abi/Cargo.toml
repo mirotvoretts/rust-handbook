@@ -1,0 +1,5 @@
+[package]
+name = "sol-29-04-export-abi"
+version = "0.1.0"
+edition = "2021"
+publish = false

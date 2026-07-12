@@ -1,0 +1,5 @@
+[package]
+name = "sol-29-06-panic-boundary"
+version = "0.1.0"
+edition = "2021"
+publish = false
