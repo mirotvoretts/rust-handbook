@@ -1,0 +1,5 @@
+[package]
+name = "ex-30-05-swap"
+version = "0.1.0"
+edition = "2021"
+publish = false

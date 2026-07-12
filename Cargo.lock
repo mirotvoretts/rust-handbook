@@ -1177,6 +1177,38 @@ name = "ex-29-08-callback-userdata"
 version = "0.1.0"
 
 [[package]]
+name = "ex-30-01-my-vec"
+version = "0.1.0"
+
+[[package]]
+name = "ex-30-02-hashmap"
+version = "0.1.0"
+
+[[package]]
+name = "ex-30-03-variadic-max"
+version = "0.1.0"
+
+[[package]]
+name = "ex-30-04-def-const"
+version = "0.1.0"
+
+[[package]]
+name = "ex-30-05-swap"
+version = "0.1.0"
+
+[[package]]
+name = "ex-30-06-record"
+version = "0.1.0"
+
+[[package]]
+name = "ex-30-07-reverse"
+version = "0.1.0"
+
+[[package]]
+name = "ex-30-08-json"
+version = "0.1.0"
+
+[[package]]
 name = "futures"
 version = "0.3.32"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2467,6 +2499,38 @@ version = "0.1.0"
 
 [[package]]
 name = "sol-29-08-callback-userdata"
+version = "0.1.0"
+
+[[package]]
+name = "sol-30-01-my-vec"
+version = "0.1.0"
+
+[[package]]
+name = "sol-30-02-hashmap"
+version = "0.1.0"
+
+[[package]]
+name = "sol-30-03-variadic-max"
+version = "0.1.0"
+
+[[package]]
+name = "sol-30-04-def-const"
+version = "0.1.0"
+
+[[package]]
+name = "sol-30-05-swap"
+version = "0.1.0"
+
+[[package]]
+name = "sol-30-06-record"
+version = "0.1.0"
+
+[[package]]
+name = "sol-30-07-reverse"
+version = "0.1.0"
+
+[[package]]
+name = "sol-30-08-json"
 version = "0.1.0"
 
 [[package]]
