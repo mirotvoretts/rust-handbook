@@ -1,0 +1,5 @@
+[package]
+name = "ex-32-05-traffic-light"
+version = "0.1.0"
+edition = "2021"
+publish = false
