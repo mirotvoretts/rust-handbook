@@ -57,8 +57,8 @@
 
 ## Часть X - Метапрограммирование
 - **M30** Декларативные макросы: `macro_rules!`, повторения, гигиена, fragment specifiers. **<- готов**
-- **M31** Процедурные макросы: derive, атрибутные, функциональные.
+- **M31** Процедурные макросы: derive, атрибутные, функциональные. **<- готов**
 
 ## Часть XI - Продвинутые идиомы
-- **M32** Type-state, phantom types, sealed traits, builder, DSL.
-- **M33** Const generics, `const fn`, трюки с ZST.
+- **M32** Type-state, phantom types, sealed traits, builder, DSL. **<- готов**
+- **M33** Const generics, `const fn`, трюки с ZST. **<- готов**

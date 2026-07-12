@@ -1209,6 +1209,125 @@ name = "ex-30-08-json"
 version = "0.1.0"
 
 [[package]]
+name = "ex-31-01-make-answer"
+version = "0.1.0"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn",
+]
+
+[[package]]
+name = "ex-31-02-hello-derive"
+version = "0.1.0"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn",
+]
+
+[[package]]
+name = "ex-31-03-field-names"
+version = "0.1.0"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn",
+]
+
+[[package]]
+name = "ex-31-04-getters"
+version = "0.1.0"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn",
+]
+
+[[package]]
+name = "ex-31-05-wrap-result"
+version = "0.1.0"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn",
+]
+
+[[package]]
+name = "ex-31-06-builder"
+version = "0.1.0"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn",
+]
+
+[[package]]
+name = "ex-31-07-builder-optional"
+version = "0.1.0"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn",
+]
+
+[[package]]
+name = "ex-32-01-typed-id"
+version = "0.1.0"
+
+[[package]]
+name = "ex-32-02-length-units"
+version = "0.1.0"
+
+[[package]]
+name = "ex-32-03-sealed-trait"
+version = "0.1.0"
+
+[[package]]
+name = "ex-32-04-door-typestate"
+version = "0.1.0"
+
+[[package]]
+name = "ex-32-05-traffic-light"
+version = "0.1.0"
+
+[[package]]
+name = "ex-32-06-builder-typestate"
+version = "0.1.0"
+
+[[package]]
+name = "ex-32-07-connection"
+version = "0.1.0"
+
+[[package]]
+name = "ex-33-01-array-sum"
+version = "0.1.0"
+
+[[package]]
+name = "ex-33-02-const-factorial"
+version = "0.1.0"
+
+[[package]]
+name = "ex-33-03-ring-buffer"
+version = "0.1.0"
+
+[[package]]
+name = "ex-33-04-matrix-transpose"
+version = "0.1.0"
+
+[[package]]
+name = "ex-33-05-const-table"
+version = "0.1.0"
+
+[[package]]
+name = "ex-33-06-zst-marker"
+version = "0.1.0"
+
+[[package]]
+name = "ex-33-07-matrix-mul"
+version = "0.1.0"
+
+[[package]]
 name = "futures"
 version = "0.3.32"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2531,6 +2650,125 @@ version = "0.1.0"
 
 [[package]]
 name = "sol-30-08-json"
+version = "0.1.0"
+
+[[package]]
+name = "sol-31-01-make-answer"
+version = "0.1.0"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn",
+]
+
+[[package]]
+name = "sol-31-02-hello-derive"
+version = "0.1.0"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn",
+]
+
+[[package]]
+name = "sol-31-03-field-names"
+version = "0.1.0"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn",
+]
+
+[[package]]
+name = "sol-31-04-getters"
+version = "0.1.0"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn",
+]
+
+[[package]]
+name = "sol-31-05-wrap-result"
+version = "0.1.0"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn",
+]
+
+[[package]]
+name = "sol-31-06-builder"
+version = "0.1.0"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn",
+]
+
+[[package]]
+name = "sol-31-07-builder-optional"
+version = "0.1.0"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn",
+]
+
+[[package]]
+name = "sol-32-01-typed-id"
+version = "0.1.0"
+
+[[package]]
+name = "sol-32-02-length-units"
+version = "0.1.0"
+
+[[package]]
+name = "sol-32-03-sealed-trait"
+version = "0.1.0"
+
+[[package]]
+name = "sol-32-04-door-typestate"
+version = "0.1.0"
+
+[[package]]
+name = "sol-32-05-traffic-light"
+version = "0.1.0"
+
+[[package]]
+name = "sol-32-06-builder-typestate"
+version = "0.1.0"
+
+[[package]]
+name = "sol-32-07-connection"
+version = "0.1.0"
+
+[[package]]
+name = "sol-33-01-array-sum"
+version = "0.1.0"
+
+[[package]]
+name = "sol-33-02-const-factorial"
+version = "0.1.0"
+
+[[package]]
+name = "sol-33-03-ring-buffer"
+version = "0.1.0"
+
+[[package]]
+name = "sol-33-04-matrix-transpose"
+version = "0.1.0"
+
+[[package]]
+name = "sol-33-05-const-table"
+version = "0.1.0"
+
+[[package]]
+name = "sol-33-06-zst-marker"
+version = "0.1.0"
+
+[[package]]
+name = "sol-33-07-matrix-mul"
 version = "0.1.0"
 
 [[package]]
