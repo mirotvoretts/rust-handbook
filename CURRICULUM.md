@@ -52,7 +52,7 @@
 ## Часть IX - Небезопасность, память, FFI
 - **M26** `unsafe`: сырые указатели, `unsafe fn`/блок, инварианты, `MaybeUninit`, `ManuallyDrop`. **<- готов**
 - **M27** Представление в памяти: `repr(C)`/`packed`/`transparent`, size/align, байтовый I/O, endianness, `bytemuck`. **<- готов**
-- **M28** Свои коллекции на unsafe: `NonNull`, свой `Vec`/`Box`, аллокаторы (`GlobalAlloc`).
+- **M28** Свои коллекции на unsafe: `NonNull`, свой `Vec`/`Box`, аллокаторы (`GlobalAlloc`). **<- готов**
 - **M29** FFI: `extern "C"`, линковка C, `bindgen`, union, вызов Rust из C.
 
 ## Часть X - Метапрограммирование

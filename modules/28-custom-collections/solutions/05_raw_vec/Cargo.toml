@@ -1,0 +1,5 @@
+[package]
+name = "sol-28-05-raw-vec"
+version = "0.1.0"
+edition = "2021"
+publish = false

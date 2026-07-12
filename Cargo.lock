@@ -1113,6 +1113,38 @@ name = "ex-27-08-tlv"
 version = "0.1.0"
 
 [[package]]
+name = "ex-28-01-layout-calc"
+version = "0.1.0"
+
+[[package]]
+name = "ex-28-02-nonnull"
+version = "0.1.0"
+
+[[package]]
+name = "ex-28-03-heap-cell"
+version = "0.1.0"
+
+[[package]]
+name = "ex-28-04-my-box"
+version = "0.1.0"
+
+[[package]]
+name = "ex-28-05-raw-vec"
+version = "0.1.0"
+
+[[package]]
+name = "ex-28-06-my-vec"
+version = "0.1.0"
+
+[[package]]
+name = "ex-28-07-counting-alloc"
+version = "0.1.0"
+
+[[package]]
+name = "ex-28-08-vec-zst"
+version = "0.1.0"
+
+[[package]]
 name = "futures"
 version = "0.3.32"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2339,6 +2371,38 @@ dependencies = [
 
 [[package]]
 name = "sol-27-08-tlv"
+version = "0.1.0"
+
+[[package]]
+name = "sol-28-01-layout-calc"
+version = "0.1.0"
+
+[[package]]
+name = "sol-28-02-nonnull"
+version = "0.1.0"
+
+[[package]]
+name = "sol-28-03-heap-cell"
+version = "0.1.0"
+
+[[package]]
+name = "sol-28-04-my-box"
+version = "0.1.0"
+
+[[package]]
+name = "sol-28-05-raw-vec"
+version = "0.1.0"
+
+[[package]]
+name = "sol-28-06-my-vec"
+version = "0.1.0"
+
+[[package]]
+name = "sol-28-07-counting-alloc"
+version = "0.1.0"
+
+[[package]]
+name = "sol-28-08-vec-zst"
 version = "0.1.0"
 
 [[package]]

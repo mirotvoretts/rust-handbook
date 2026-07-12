@@ -1,0 +1,5 @@
+[package]
+name = "ex-28-01-layout-calc"
+version = "0.1.0"
+edition = "2021"
+publish = false
