@@ -1,0 +1,5 @@
+[package]
+name = "ex-33-01-array-sum"
+version = "0.1.0"
+edition = "2021"
+publish = false

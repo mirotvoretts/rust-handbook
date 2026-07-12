@@ -1,0 +1,5 @@
+[package]
+name = "ex-33-05-const-table"
+version = "0.1.0"
+edition = "2021"
+publish = false

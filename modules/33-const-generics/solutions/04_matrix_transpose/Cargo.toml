@@ -1,0 +1,5 @@
+[package]
+name = "sol-33-04-matrix-transpose"
+version = "0.1.0"
+edition = "2021"
+publish = false
