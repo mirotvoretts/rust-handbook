@@ -46,6 +46,20 @@ problem, replace `todo!()` with your implementation, run
 `cargo test -p ex-...` until it's green. Only look in `solutions/` after a
 genuine attempt.
 
+### Interactive runner (`rh`)
+
+Instead of running everything by hand, launch the interactive CLI from the repo
+root:
+
+```sh
+cargo run -p rh
+```
+
+It gives an arrow-key menu: course progress, module/exercise list, the current
+exercise card, a one-shot check, watch mode (auto re-run on save), and jump to
+the next unsolved exercise. Progress is stored locally in `.rh-progress.json`
+(gitignored).
+
 ## Curriculum
 
 The full module list is in [CURRICULUM.md](CURRICULUM.md): about 33 modules
@@ -106,6 +120,19 @@ cargo test -p ex-06-01-move-basics
 Порядок работы: открыть `modules/NN-topic/exercises/NN_slug/src/lib.rs`, прочитать условие,
 заменить `todo!()` на реализацию, гонять `cargo test -p ex-...` до зелёного. В `solutions/`
 заглядывать после честной попытки.
+
+### Интерактивный раннер (`rh`)
+
+Чтобы не запускать всё вручную, из корня репозитория:
+
+```sh
+cargo run -p rh
+```
+
+Меню на стрелках: прогресс курса, список модулей и упражнений, карточка текущего
+упражнения, разовая проверка, watch-режим (авто-перезапуск теста при сохранении) и
+переход к следующему нерешённому. Прогресс хранится локально в `.rh-progress.json`
+(в `.gitignore`).
 
 ## Программа курса
 

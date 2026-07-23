@@ -4,6 +4,9 @@
 [workspace]
 resolver = "2"
 members = [
+    "cli",
     "modules/*/exercises/*",
     "modules/*/solutions/*",
 ]
+# Фикстуры для тестов CLI - обычные каталоги с Cargo.toml, но не члены workspace.
+exclude = ["cli/tests/fixtures"]
