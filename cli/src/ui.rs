@@ -8,6 +8,11 @@ use crate::course::{Course, Exercise, Tier};
 use crate::progress::{Progress, Status};
 use crate::runner::{self, TestOutcome};
 
+pub fn clear() {
+    print!("\x1b[2J\x1b[3J\x1b[H");
+    let _ = std::io::Write::flush(&mut std::io::stdout());
+}
+
 pub fn status_glyph(status: Status) -> String {
     match status {
         Status::Pass => "[+]".green().bold().to_string(),
@@ -31,7 +36,7 @@ pub fn render_markdown(md: &str) {
     skin.print_text(md);
 }
 
-pub fn print_task_from_src(src: &Path) {
+pub fn print_task_from_src(src: &Path, max_lines: usize) {
     let text = match std::fs::read_to_string(src) {
         Ok(t) => t,
         Err(_) => {
@@ -39,15 +44,23 @@ pub fn print_task_from_src(src: &Path) {
             return;
         }
     };
-    let mut any = false;
+    let mut doc = Vec::new();
     for line in text.lines() {
         let trimmed = line.trim_start();
         if let Some(rest) = trimmed.strip_prefix("//!") {
-            println!("  {}", rest.trim_start().dimmed());
-            any = true;
-        } else if any {
+            doc.push(rest.trim_start().to_string());
+        } else if !doc.is_empty() {
             break;
         }
+    }
+    for line in doc.iter().take(max_lines) {
+        println!("  {}", line.dimmed());
+    }
+    if doc.len() > max_lines {
+        println!(
+            "  {}",
+            "... (полное условие - в src/lib.rs, пункт \"Открыть в редакторе\")".dimmed()
+        );
     }
 }
 

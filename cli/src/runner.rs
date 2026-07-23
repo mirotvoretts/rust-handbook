@@ -2,11 +2,26 @@ use std::path::Path;
 use std::process::Command;
 use std::sync::atomic::{AtomicBool, Ordering};
 use std::sync::mpsc::channel;
-use std::sync::Arc;
 use std::time::Duration;
 
 use anyhow::Result;
 use notify::{RecursiveMode, Watcher};
+
+static STOP: AtomicBool = AtomicBool::new(false);
+
+pub fn install_signal_handler() {
+    let _ = ctrlc::set_handler(|| {
+        STOP.store(true, Ordering::SeqCst);
+    });
+}
+
+fn stop_requested() -> bool {
+    STOP.load(Ordering::SeqCst)
+}
+
+fn reset_stop() {
+    STOP.store(false, Ordering::SeqCst);
+}
 
 pub struct TestOutcome {
     pub passed: bool,
@@ -44,11 +59,7 @@ pub fn watch<F>(root: &Path, ex_pkg: &str, watch_dir: &Path, mut on_event: F) ->
 where
     F: FnMut(WatchEvent),
 {
-    let stop = Arc::new(AtomicBool::new(false));
-    let stop_handler = stop.clone();
-    let _ = ctrlc::set_handler(move || {
-        stop_handler.store(true, Ordering::SeqCst);
-    });
+    reset_stop();
 
     let (tx, rx) = channel();
     let mut watcher = notify::recommended_watcher(move |res| {
@@ -56,11 +67,11 @@ where
     })?;
     watcher.watch(watch_dir, RecursiveMode::Recursive)?;
 
-    while !stop.load(Ordering::SeqCst) {
+    while !stop_requested() {
         match rx.recv_timeout(Duration::from_millis(200)) {
             Ok(Ok(event)) if is_edit(&event.kind) => {
                 while rx.recv_timeout(Duration::from_millis(150)).is_ok() {}
-                if stop.load(Ordering::SeqCst) {
+                if stop_requested() {
                     break;
                 }
                 let outcome = run_test(root, ex_pkg)?;
@@ -72,6 +83,7 @@ where
         }
     }
 
+    reset_stop();
     on_event(WatchEvent::Stopped);
     Ok(())
 }
